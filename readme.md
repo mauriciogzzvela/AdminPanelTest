@@ -28,7 +28,9 @@ DB_DATABASE=marvel<br>
 DB_USERNAME=logan<br>
 DB_PASSWORD=xm3n<br>
 
-4. Situarse en el proyecto y correr el comando php artisan serve.
+4. Situarse en el proyecto y descargar las dependencias de composer ejecutando el comando "composer install".
+
+4. Iniciar el proyecto ejecutando el comando "php artisan serve".
 
 5. Ir al navegador en http://localhost:8000
 

@@ -11,22 +11,22 @@ Test de Panel de Administración en Laravel
 4. XAMPP
 
 ## Instalación
-1. Descargar la bd -> <a href="https://drive.google.com/file/d/1k_RlCRWdJ6qhxKzSgWd3al9K-cezhTNu/view?usp=sharing" target="_blank">Base de Datos</a>
+1. Descargar la Base de Datos  -> <a href="https://drive.google.com/file/d/1k_RlCRWdJ6qhxKzSgWd3al9K-cezhTNu/view?usp=sharing" target="_blank">Base de Datos</a>
 
-2. Crear un usuario root de mysql con el nombre logan
+2. Crear un usuario root de mysql con el nombre "logan" y con el password "xm3n"
 
-CREATE USER 'logan'@'localhost' IDENTIFIED BY 'xm3n';
-GRANT ALL PRIVILEGES ON * . * TO 'logan'@'localhost';
+CREATE USER 'logan'@'localhost' IDENTIFIED BY 'xm3n';<br>
+GRANT ALL PRIVILEGES ON * . * TO 'logan'@'localhost';<br>
 FLUSH PRIVILEGES;
 
 3. El proyecto ya tiene incluido el archivo .env de conexion a la base de datos con las credenciales (es una prueba).
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=marvel
-DB_USERNAME=logan
-DB_PASSWORD=xm3n
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=marvel<br>
+DB_USERNAME=logan<br>
+DB_PASSWORD=xm3n<br>
 
 4. Situarse en el proyecto y correr el comando php artisan serve.
 

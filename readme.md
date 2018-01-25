@@ -11,7 +11,7 @@ Test de Panel de Administración en Laravel
 4. XAMPP
 
 ## Instalación
-1. Descargar la Base de Datos  -> <a href="https://drive.google.com/file/d/1k_RlCRWdJ6qhxKzSgWd3al9K-cezhTNu/view?usp=sharing" target="_blank">Base de Datos</a>
+1. Descargar la Base de Datos  -> <a href="https://drive.google.com/file/d/1nFsWaTS5H0QwFU5REcplbz_zO6nGvI7Q/view?usp=sharing" target="_blank">Base de Datos</a>
 
 2. Crear un usuario root de mysql con el nombre "logan" y con el password "xm3n"
 

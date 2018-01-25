@@ -34,5 +34,20 @@ DB_PASSWORD=xm3n<br>
 
 5. Ir al navegador en http://localhost:8000
 
+6. Iniciar sesión con cualquiera de estos 3 usuarios:<br>
+
+  <b>USUARIO ADMINISTRADOR</b><br>
+  email: mauricio@admin.com<br>
+  password: qazwsx<br>
+  
+  <b>USUARIO STAFF</b><br>
+  email: mauricio@staff.com<br>
+  password: qazwsx<br>
+  
+  <b>USUARIO CUSTOMER SERVICE</b><br>
+  email: mauricio@customer.com<br>
+  password: qazwsx<br>
+
+
 ## Dudas
 mauriciogonzalez1234@gmail.com

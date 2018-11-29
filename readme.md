@@ -2,7 +2,7 @@
 
 
 ## Admin Panel Test
-Test de Panel de Administración en Laravel
+Panel de Administración en Laravel
 
 ## Requerimientos
 1. PHP >= 7.0.0

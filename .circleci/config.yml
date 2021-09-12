@@ -22,9 +22,6 @@ jobs:
       - checkout
 
       - run: sudo apt update # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
-      - run: sudo docker-php-ext-install zip
-      
-      - run: sudo apt-get install libpng-dev 
 
       # Download and cache dependencies
       - restore_cache:
@@ -44,9 +41,6 @@ jobs:
           keys:
             - node-v1-{{ checksum "package.json" }}
             - node-v1-
-      - run: yarn install -g pngquant-bin
-      - run: yarn install
-      
       - save_cache:
           key: node-v1-{{ checksum "package.json" }}
           paths:
